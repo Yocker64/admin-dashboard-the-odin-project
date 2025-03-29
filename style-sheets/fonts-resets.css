@@ -1,0 +1,66 @@
+@import "modern-normalize"; 
+
+:root { line-height: 1.5; } 
+h1, h2, h3, h4, h5, figure, p, ol, ul { 
+margin: 0; 
+}
+
+ol[role="list"], ul[role="list"] { 
+list-style: none; 
+padding-inline: 0; 
+} 
+
+h1, h2, h3, h4, h5 { 
+font-size: inherit; 
+font-weight: inherit;
+}
+
+img { 
+display: block; 
+max-inline-size: 100%; 
+}
+
+@font-face {
+    font-family: 'Acherus Militant Light';
+    src: url('../fonts/acherus_militant_1_-_light.otf-webfont.woff2') format('woff2'),
+         url('../fonts/acherus_militant_1_-_light.otf-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro Head R';
+    src: url('../fonts/introheadr-base-webfont.woff2') format('woff2'),
+         url('../fonts/introheadr-base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro Rust G';
+    src: url('../fonts/introrustg-base2line-webfont.woff2') format('woff2'),
+         url('../fonts/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kontrapunkt Bold';
+    src: url('../fonts/Kontrapunkt-Bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kontrapunkt Light';
+    src: url('../fonts/Kontrapunkt-Light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kontrapunkt Light Italic';
+    src: url('../fonts/Kontrapunkt-LightItalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
